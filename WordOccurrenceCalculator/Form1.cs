@@ -16,5 +16,15 @@ namespace WordOccurrenceCalculator
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Onclick, take a list of strings as input from textbox
+            //split into a list of words
+            //pass to wordcalculator
+            //display in label
+            //each wordoccurence item will be a separate line
+            
+        }
     }
 }

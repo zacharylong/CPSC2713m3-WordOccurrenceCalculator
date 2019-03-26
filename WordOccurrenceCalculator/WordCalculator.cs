@@ -11,6 +11,21 @@ namespace WordOccurrenceCalculator
         public List<String> CalculateOccurrences(List<String> InputList)
         {
             List<String> result = new List<string>();
+            try
+            {
+                bool isEmpty = !InputList.Any();
+                if (isEmpty)
+                {
+                    throw new Exception("Empty entry, please type something");
+                }
+         
+            }
+
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(ex.Message);
+            }
+
             return result;
         }
 
