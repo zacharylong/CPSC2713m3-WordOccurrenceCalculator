@@ -8,9 +8,10 @@ namespace WordOccurrenceCalculator
 {
     class WordCalculator
     {
-        public void CalculateOccurrences()
+        public List<String> CalculateOccurrences(List<String> InputList)
         {
-
+            List<String> result = new List<string>();
+            return result;
         }
 
     }

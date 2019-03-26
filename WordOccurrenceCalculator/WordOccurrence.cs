@@ -8,9 +8,10 @@ namespace WordOccurrenceCalculator
 {
     class WordOccurrence
     {
-
-        String Word;
-        int Count;
-
+        public WordOccurrence()
+        {
+            String Word;
+            int Count;
+        }
     }
 }
