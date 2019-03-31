@@ -32,7 +32,7 @@ namespace WordOccurrenceCalculator
 
             //store string array as arraylist for processing
             System.Collections.ArrayList stringAsArrayList = new System.Collections.ArrayList();
-            for (int i = 0; i < string1.Length; i++)
+            for (int i = 0; i < splitArray.Length; i++)
             {
                 stringAsArrayList.Add(splitArray[i]);
             }
