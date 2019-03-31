@@ -12,6 +12,20 @@ namespace WordOccurrencesTest
     public class CalculateOccurrencesTest
     {
         //decorate
+        [Test]
+        public void HelloTest()
+        {
+            //Arrange
+            //Setup required to run test
+
+
+            //Act
+            //Code you want to test
+
+            //Assert
+            //Acts as expected?
+            Assert.Pass();
+        }
 
     }
 }
