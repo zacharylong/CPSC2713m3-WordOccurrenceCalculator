@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordOccurrenceCalculator", "WordOccurrenceCalculator\WordOccurrenceCalculator.csproj", "{6EBA24BC-7201-4C7D-B074-770D3F708D7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordOccurrencesTest", "WordOccurrencesTest\WordOccurrencesTest.csproj", "{3AFBB183-14FE-4FA4-B842-D1D1270313C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6EBA24BC-7201-4C7D-B074-770D3F708D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EBA24BC-7201-4C7D-B074-770D3F708D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EBA24BC-7201-4C7D-B074-770D3F708D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AFBB183-14FE-4FA4-B842-D1D1270313C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AFBB183-14FE-4FA4-B842-D1D1270313C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AFBB183-14FE-4FA4-B842-D1D1270313C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AFBB183-14FE-4FA4-B842-D1D1270313C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
