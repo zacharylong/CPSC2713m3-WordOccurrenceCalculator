@@ -46,7 +46,7 @@ namespace WordOccurrenceCalculator
             //each wordoccurence item will be a separate line
             for (int i = 0; i < wordOccur.Length; i++)
             {
-                string countResult = wordOccur[i].word + "=" + wordOccur[i].count + " ";
+                string countResult = wordOccur[i].word + "=" + wordOccur[i].count + "\n";
                 resultString = resultString + countResult;
             }
 
