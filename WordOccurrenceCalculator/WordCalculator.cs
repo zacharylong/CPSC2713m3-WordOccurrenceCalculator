@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,5 +30,9 @@ namespace WordOccurrenceCalculator
             return result;
         }
 
+        internal static WordOccurrence[] calculateOccurrences(ArrayList stringAsArrayList)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
